@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    background-image: url(image2.png);
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+.header .logo{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.header .img{
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.offcanvas-header{
+    height: 150px;
+    background-color: maroon;
+}
+.offcanvas-header .studentLogo{
+    width: 67px;
+    margin-right: 15px;
+}
+.offcanvas-header h1{
+    font-size: 2em;
+    color: white;
+} 
+.offcanvas-header .h1 .status{
+    font-size: 30px;
+    color: gold;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: grey;
+    height: 80px;
+    padding-top: 20px;
+
+}
+.offcanvas-body ul li a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    padding: 40px;
+    
+    
+}
+li:nth-child(6){
+    margin-top: 120px;
+    background-color: maroon;
+}
+
+.containers{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+    border-radius: 50px;
+    margin-top: 40px;
+    height: 720px;
+    display: flex;
+}
+
+.dashboard-content {
+            
+    padding: 30px;
+}
+.dashboard-card {
+    background-color: #7D0000;
+    color: #FFC300;
+    text-align: center;
+    /* padding: 40px; */
+    border-radius: 8px;
+    /* transition: transform 0.2s; */
+    min-height: 200px;
+}
+/* .dashboard-card:hover {
+    transform: scale(1.05);
+} */
+.card-icon {
+    width: 80px;    
+    
+}
+.full-height {
+    height: 100%;
+}
+
+.col .dashboard-card .btn{
+    border: solid;
+
+}
+
+
